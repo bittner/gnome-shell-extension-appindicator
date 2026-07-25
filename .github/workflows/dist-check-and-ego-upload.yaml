@@ -66,6 +66,7 @@ jobs:
 
     - name: Install dependencies
       run: |
+        sudo apt update -y
         sudo apt install -y \
           libjson-glib-dev \
           libgnome-autoar-0-dev \
